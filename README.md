@@ -1,4 +1,4 @@
-# # Container Workshop
+# HTTP Request Workshop
 
 <div class="row">
   <div class="column">
@@ -10,25 +10,26 @@ Welcome to the **HTTP Request Workshop** by [pekkakorpi-tassi.fi](https://pekkak
 
 ## Overview
 
-The [http_request_workshop](https://github.com/p3kk4/container-workshop) repository is available on GitHub and serves as a material package that includes all the necessary resources required to learn about Docker containers via practical examples.
+The [http_request_workshop](https://github.com/p3kk4/http_request_workshop) repository is available on GitHub and serves as a material package that includes all the necessary resources required to learn about HTTP Requests via practical examples.
 
-The material package can be used for self-paced learning, although it is primarily meant to be complemented by instructor-led workshops. During the workshops learners can engage in hands-on learning activities.
+The material package can be used for self-paced learning, although it is primarily meant to be complemented by instructor-led workshops. During the workshops learners can engage in hands-on learning activities to increase their familiarity with HTTP Requests and surrounding key topics.
 
-The learning environment for the workshops is meant to be learner-specific Python Notebook deployed on [Binder](https://mybinder.org/) which is a software project to package and share interactive Python Botebooks. Learners gain access to the learning environments via Binder launch URL. Learning environment enables learners to test HTTP Requests against live API over the Internet.
+The learning environment for the workshops is meant to be learner-specific Jupyter Notebook (previously Python Notebook) that can be opened by local software or online services that allow working with this type of files. Jupyter Notebooks contain text sections written in Markdown syntax rendered as HTML and code sections that contain Python code than can be executed within Jupyter Notebook.
 
 The major contents of the container-workshop repository are:
 
-Text
+- [http_request_workshop.ipynb](https://github.com/p3kk4/http_request_workshop/tree/master/http_request_workshop.ipynb) teaches how to run [Node.js](https://nodejs.org/en) application to deliver dynamic website/web service by using Docker.
 
 ## Learning Environment Access
 
-Text
+Learning environment enables learners to test HTTP Requests against live API over the Internet. For the purposes of this workshop we suggest using one of the two learning environment options:
 
-- Binder launch URL: ...
-
-**Links:**
-
-Text
+- Open Jupyter Notebook of this work shop with [Google Colab](https://colab.research.google.com): [http_request_workshop.ipynb](https://colab.research.google.com/github/p3kk4/http_request_workshop/blob/master/http_request_workshop.ipynb)
+  - You have to login with Google account to be able to execute Python code.
+  - This is the **recommended** method of interacting with Jupyter Notebook.
+- Open Jupyter Notebook of this work shop with [Binder](https://mybinder.org/): [http_request_workshop.ipynb](https://mybinder.org/v2/gh/p3kk4/http_request_workshop/master)
+  - There is issue with this environment with **ping** and **tracert** commands of [icmplib](https://pypi.org/project/icmplib/) library.
+  - This is the **optional method** of interacting with Jupyter Notebook.
 
 ## Disclaimer
 
