@@ -18,17 +18,17 @@ The learning environment for the workshops is meant to be learner-specific Jupyt
 
 The major contents of the container-workshop repository are:
 
-- [http_request_workshop.ipynb](https://github.com/p3kk4/http_request_workshop/tree/master/http_request_workshop.ipynb) teaches how to run [Node.js](https://nodejs.org/en) application to deliver dynamic website/web service by using Docker.
+- [http_request_workshop.ipynb](https://github.com/p3kk4/http_request_workshop/tree/master/http_request_workshop.ipynb) helps learners to explore HTTP Requests and associated technologies by running Python code.
 
 ## Learning Environment Access
 
 Learning environment enables learners to test HTTP Requests against live API over the Internet. For the purposes of this workshop we suggest using one of the two learning environment options:
 
-- Open Jupyter Notebook of this work shop with [Google Colab](https://colab.research.google.com): [http_request_workshop.ipynb](https://colab.research.google.com/github/p3kk4/http_request_workshop/blob/master/http_request_workshop.ipynb)
+- Open Jupyter Notebook of this work shop with Google Colab: [http_request_workshop.ipynb](https://colab.research.google.com/github/p3kk4/http_request_workshop/blob/master/http_request_workshop.ipynb)
   - You have to login with Google account to be able to execute Python code.
   - This is the **recommended** method of interacting with Jupyter Notebook.
-- Open Jupyter Notebook of this work shop with [Binder](https://mybinder.org/): [http_request_workshop.ipynb](https://mybinder.org/v2/gh/p3kk4/http_request_workshop/master)
-  - There is issue with this environment with **ping** and **tracert** commands of [icmplib](https://pypi.org/project/icmplib/) library.
+- Open Jupyter Notebook of this work shop with Binder: [http_request_workshop.ipynb](https://mybinder.org/v2/gh/p3kk4/http_request_workshop/master)
+  - There are yet unresolved errors in this environment with **ping** and **tracert** commands of [icmplib](https://pypi.org/project/icmplib/) library.
   - This is the **optional method** of interacting with Jupyter Notebook.
 
 ## Disclaimer
